@@ -1,6 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+/// <summary>
+/// Makes it easy to animate top-down style sprites, provided they're in a grid, similar to RPG Maker sprites.
+/// Helpful for avoiding using Unity's built-in animator for these types of animations if you need to.
+/// </summary>
 
 public class CharacterAnimator : MonoBehaviour {
 
